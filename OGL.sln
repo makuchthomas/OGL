@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OGL.Core", "src\OGL.Core\OGL.Core.csproj", "{19499135-614C-4146-BFF4-52EFFB13818F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC87806C-EEB5-4502-A9B9-A90EDE5DC93C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{69434443-5FA3-4DB2-B4E5-F4198B4F6916}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OGL.Infrastructure", "src\OGL.Infrastructure\OGL.Infrastructure.csproj", "{2FC333F7-B3E0-4159-9BDA-84352582D25D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OGL.Tests", "test\OGL.Tests\OGL.Tests.csproj", "{B9D9B259-1464-4D76-B892-CB83FE6C4530}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OGL.Tests.Integration", "test\OGL.Tests.Integration\OGL.Tests.Integration.csproj", "{110022C7-9A22-4467-BA69-805A27F1938A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ogl.Web", "src\Ogl.Web\Ogl.Web.csproj", "{4EFD06B6-63B8-4E67-9938-0A594FB6E650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A0904113-4EEE-46DD-9A3E-B68E63EAD7D9}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\build.sh = scripts\build.sh
+		scripts\OGL.postman_collection.json = scripts\OGL.postman_collection.json
+		scripts\restore.sh = scripts\restore.sh
+		scripts\SQLQuery1.sql = scripts\SQLQuery1.sql
+		scripts\SQLQuery2.sql = scripts\SQLQuery2.sql
+		scripts\SQLQuery3.sql = scripts\SQLQuery3.sql
+		scripts\start.sh = scripts\start.sh
+		scripts\tests.sh = scripts\tests.sh
+		scripts\testsIntegration.sh = scripts\testsIntegration.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19499135-614C-4146-BFF4-52EFFB13818F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19499135-614C-4146-BFF4-52EFFB13818F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19499135-614C-4146-BFF4-52EFFB13818F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19499135-614C-4146-BFF4-52EFFB13818F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC333F7-B3E0-4159-9BDA-84352582D25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC333F7-B3E0-4159-9BDA-84352582D25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC333F7-B3E0-4159-9BDA-84352582D25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC333F7-B3E0-4159-9BDA-84352582D25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D9B259-1464-4D76-B892-CB83FE6C4530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D9B259-1464-4D76-B892-CB83FE6C4530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D9B259-1464-4D76-B892-CB83FE6C4530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D9B259-1464-4D76-B892-CB83FE6C4530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110022C7-9A22-4467-BA69-805A27F1938A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110022C7-9A22-4467-BA69-805A27F1938A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110022C7-9A22-4467-BA69-805A27F1938A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110022C7-9A22-4467-BA69-805A27F1938A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFD06B6-63B8-4E67-9938-0A594FB6E650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFD06B6-63B8-4E67-9938-0A594FB6E650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFD06B6-63B8-4E67-9938-0A594FB6E650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFD06B6-63B8-4E67-9938-0A594FB6E650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19499135-614C-4146-BFF4-52EFFB13818F} = {FC87806C-EEB5-4502-A9B9-A90EDE5DC93C}
+		{2FC333F7-B3E0-4159-9BDA-84352582D25D} = {FC87806C-EEB5-4502-A9B9-A90EDE5DC93C}
+		{B9D9B259-1464-4D76-B892-CB83FE6C4530} = {69434443-5FA3-4DB2-B4E5-F4198B4F6916}
+		{110022C7-9A22-4467-BA69-805A27F1938A} = {69434443-5FA3-4DB2-B4E5-F4198B4F6916}
+		{4EFD06B6-63B8-4E67-9938-0A594FB6E650} = {FC87806C-EEB5-4502-A9B9-A90EDE5DC93C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E446023D-F61D-4704-88DB-E1F889E2B549}
+	EndGlobalSection
+EndGlobal
