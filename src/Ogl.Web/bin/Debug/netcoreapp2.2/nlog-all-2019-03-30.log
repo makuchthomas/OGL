@@ -1,0 +1,228 @@
+2019-03-30 16:52:03.1392||DEBUG|OGL.Web.Program|init main 
+2019-03-30 16:52:09.9865||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-30 16:52:10.6038||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-30 16:52:10.6512||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-30 16:52:10.6793||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-30 16:52:10.7041||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-30 16:52:10.7412||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-30 16:52:10.7679||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-30 16:52:10.7950||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-30 16:52:10.8143||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-30 16:52:10.8383||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-30 16:52:10.8583||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-30 16:52:10.8911||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-30 16:52:10.9136||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-30 16:52:10.9136||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: f6e68f86-e4ff-4e6b-8ce1-6a5e4a345848 
+2019-03-30 16:52:10.9313||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: f6e68f86-e4ff-4e6b-8ce1-6a5e4a345848 
+2019-03-30 16:52:10.9652||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-30 16:52:10.9652||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 1235c79e-ac26-437d-9a0a-7f9d544c918a 
+2019-03-30 16:52:10.9713||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 1235c79e-ac26-437d-9a0a-7f9d544c918a 
+2019-03-30 16:52:11.0132||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-30 16:52:11.0189||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 458c7ff2-27f2-407c-9826-24a80cc311ea 
+2019-03-30 16:52:11.0189||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 458c7ff2-27f2-407c-9826-24a80cc311ea 
+2019-03-30 16:52:11.0483||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-30 16:52:11.0515||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: ee13c0c7-7253-4f30-a183-f438458289dc 
+2019-03-30 16:52:11.0515||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: ee13c0c7-7253-4f30-a183-f438458289dc 
+2019-03-30 16:52:11.2790|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-30 16:52:12.0029|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 711.0428ms 404  
+2019-03-30 16:52:22.2263|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-30 16:52:22.3340|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.Get (Ogl.Web) 
+2019-03-30 16:52:22.6383|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 16:52:22.7099|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 65.9104ms. 
+2019-03-30 16:52:22.7474|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.UserDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 16:52:22.8395|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.Get (Ogl.Web) in 495.4165ms 
+2019-03-30 16:52:22.8395|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 614.7975ms 200 application/json; charset=utf-8 
+2019-03-30 16:52:38.2489|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-30 16:52:38.2554|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.Get (Ogl.Web) 
+2019-03-30 16:52:38.3152|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 16:52:38.3152|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 13.8632ms. 
+2019-03-30 16:52:38.3310|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.UserDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 16:52:38.3310|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.Get (Ogl.Web) in 74.5238ms 
+2019-03-30 16:52:38.3310|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.4675ms 200 application/json; charset=utf-8 
+2019-03-30 16:52:41.8496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-30 16:52:41.8982|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-30 16:52:42.0001|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-30 16:52:42.0180|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 17.0852ms. 
+2019-03-30 16:52:42.0180|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDetailDto'. 
+2019-03-30 16:52:42.0180|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 127.0334ms 
+2019-03-30 16:52:42.0180|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 178.393ms 200 application/json; charset=utf-8 
+2019-03-30 16:52:47.5966|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-30 16:52:47.5966|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-30 16:52:47.6567|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-30 16:52:47.6597|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.3159ms. 
+2019-03-30 16:52:47.6597|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDetailDto'. 
+2019-03-30 16:52:47.6597|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 62.4921ms 
+2019-03-30 16:52:47.6597|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 70.3833ms 200 application/json; charset=utf-8 
+2019-03-30 16:52:51.4417|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-30 16:52:51.4417|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.Get (Ogl.Web) 
+2019-03-30 16:52:51.4756|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 16:52:51.4756|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0278ms. 
+2019-03-30 16:52:51.4756|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.UserDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 16:52:51.4756|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.Get (Ogl.Web) in 37.2838ms 
+2019-03-30 16:52:51.4756|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.3125ms 200 application/json; charset=utf-8 
+2019-03-30 16:52:56.9780|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-30 16:52:56.9780|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.Get (Ogl.Web) 
+2019-03-30 16:52:57.0167|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 16:52:57.0181|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0304ms. 
+2019-03-30 16:52:57.0181|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.UserDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 16:52:57.0181|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.Get (Ogl.Web) in 40.7013ms 
+2019-03-30 16:52:57.0181|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.7016ms 200 application/json; charset=utf-8 
+2019-03-30 16:53:05.3363|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/   
+2019-03-30 16:53:05.3363|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) 
+2019-03-30 16:53:05.3777|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 16:53:05.3777|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 13.6594ms. 
+2019-03-30 16:53:05.3938|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.CategoryDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 16:53:05.3938|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) in 53.4006ms 
+2019-03-30 16:53:05.3938|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.6321ms 200 application/json; charset=utf-8 
+2019-03-30 16:53:52.9379|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/   
+2019-03-30 16:53:52.9413|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) 
+2019-03-30 16:53:52.9974|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 16:53:52.9974|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0892ms. 
+2019-03-30 16:53:52.9974|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.CategoryDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 16:53:52.9974|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) in 55.5487ms 
+2019-03-30 16:53:53.0214|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.4873ms 200 application/json; charset=utf-8 
+2019-03-30 16:54:52.8621|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/adminuser1@email.com   
+2019-03-30 16:54:52.8791|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-30 16:54:52.9350|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (adminuser1@email.com) - Validation state: Valid 
+2019-03-30 16:54:52.9350|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.1303ms. 
+2019-03-30 16:54:52.9350|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDetailDto'. 
+2019-03-30 16:54:52.9421|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 49.4347ms 
+2019-03-30 16:54:52.9595|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.4426ms 200 application/json; charset=utf-8 
+2019-03-30 16:55:21.0731|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/f6e68f86-e4ff-4e6b-8ce1-6a5e4a345848   
+2019-03-30 16:55:21.0911|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 16:55:21.1367|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (f6e68f86-e4ff-4e6b-8ce1-6a5e4a345848) - Validation state: Valid 
+2019-03-30 16:55:21.1455|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 7.9149ms. 
+2019-03-30 16:55:21.1455|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404 
+2019-03-30 16:55:21.1455|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 59.8197ms 
+2019-03-30 16:55:21.1455|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 80.7279ms 404  
+2019-03-30 16:55:34.1825|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/cate1   
+2019-03-30 16:55:34.1825|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 16:55:34.2507|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (cate1) - Validation state: Valid 
+2019-03-30 16:55:34.2521|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.6428ms. 
+2019-03-30 16:55:34.2521|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.CategoryDetailDto'. 
+2019-03-30 16:55:34.2521|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 69.12ms 
+2019-03-30 16:55:34.2521|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 76.3695ms 200 application/json; charset=utf-8 
+2019-03-30 16:55:42.3532|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/cate2   
+2019-03-30 16:55:42.3532|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 16:55:42.4097|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (cate2) - Validation state: Valid 
+2019-03-30 16:55:42.4097|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0323ms. 
+2019-03-30 16:55:42.4097|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.CategoryDetailDto'. 
+2019-03-30 16:55:42.4097|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 61.7392ms 
+2019-03-30 16:55:42.4097|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.5086ms 200 application/json; charset=utf-8 
+2019-03-30 16:55:45.6231|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/cate3   
+2019-03-30 16:55:45.6231|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 16:55:45.6589|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (cate3) - Validation state: Valid 
+2019-03-30 16:55:45.6589|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0438ms. 
+2019-03-30 16:55:45.6589|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.CategoryDetailDto'. 
+2019-03-30 16:55:45.6589|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 35.5903ms 
+2019-03-30 16:55:45.6589|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.3018ms 200 application/json; charset=utf-8 
+2019-03-30 16:55:49.0698|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/cate4   
+2019-03-30 16:55:49.0698|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 16:55:49.1050|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (cate4) - Validation state: Valid 
+2019-03-30 16:55:49.1050|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.027ms. 
+2019-03-30 16:55:49.1050|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.CategoryDetailDto'. 
+2019-03-30 16:55:49.1050|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 36.0847ms 
+2019-03-30 16:55:49.1050|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.032ms 200 application/json; charset=utf-8 
+2019-03-30 16:57:57.5263||DEBUG|OGL.Web.Program|init main 
+2019-03-30 16:58:01.0338||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-30 16:58:01.5215||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-30 16:58:01.5619||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-30 16:58:01.5829||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-30 16:58:01.6041||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-30 16:58:01.6231||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-30 16:58:01.6419||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-30 16:58:01.6613||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-30 16:58:01.6802||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-30 16:58:01.7253||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-30 16:58:01.7530||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-30 16:58:01.7737||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-30 16:58:01.7936||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-30 16:58:01.8002||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 0a47fc2a-aa9b-4401-8c1d-63939279ff36 
+2019-03-30 16:58:01.8002||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 0a47fc2a-aa9b-4401-8c1d-63939279ff36 
+2019-03-30 16:58:01.8350||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-30 16:58:01.8350||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 21cf6a73-c6b7-4cf8-8e32-ea74ab254104 
+2019-03-30 16:58:01.8350||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 21cf6a73-c6b7-4cf8-8e32-ea74ab254104 
+2019-03-30 16:58:01.8699||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-30 16:58:01.8699||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: b81bdae0-22c2-4f24-880d-6bdf69832e3b 
+2019-03-30 16:58:01.8699||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: b81bdae0-22c2-4f24-880d-6bdf69832e3b 
+2019-03-30 16:58:01.9028||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-30 16:58:01.9028||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 718d74bb-812f-496f-99eb-18c1bc4fcc7b 
+2019-03-30 16:58:01.9028||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 718d74bb-812f-496f-99eb-18c1bc4fcc7b 
+2019-03-30 16:58:02.0823|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-30 16:58:02.5111|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 429.9465ms 404  
+2019-03-30 17:03:38.1500|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-30 17:03:38.2420|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.Get (Ogl.Web) 
+2019-03-30 17:03:38.3879|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 17:03:38.4233|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 31.9573ms. 
+2019-03-30 17:03:38.4488|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.UserDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 17:03:38.5119|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.Get (Ogl.Web) in 246.4303ms 
+2019-03-30 17:03:38.5119|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 363.671ms 200 application/json; charset=utf-8 
+2019-03-30 17:03:57.1524|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/adminuser1@email.com   
+2019-03-30 17:03:57.2143|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-30 17:03:57.3654|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (adminuser1@email.com) - Validation state: Valid 
+2019-03-30 17:03:57.3833|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 16.6599ms. 
+2019-03-30 17:03:57.3833|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDetailDto'. 
+2019-03-30 17:03:57.3988|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 182.0932ms 
+2019-03-30 17:03:57.3988|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 247.7788ms 200 application/json; charset=utf-8 
+2019-03-30 17:04:25.5384|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/   
+2019-03-30 17:04:25.5627|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) 
+2019-03-30 17:04:25.6200|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 17:04:25.6303|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 9.4407ms. 
+2019-03-30 17:04:25.6303|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.CategoryDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 17:04:25.6303|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) in 72.0807ms 
+2019-03-30 17:04:25.6498|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 111.4431ms 200 application/json; charset=utf-8 
+2019-03-30 17:04:45.2748|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/cate1   
+2019-03-30 17:04:45.2846|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 17:04:45.3448|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (cate1) - Validation state: Valid 
+2019-03-30 17:04:45.3556|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 9.9416ms. 
+2019-03-30 17:04:45.3556|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.CategoryDetailDto'. 
+2019-03-30 17:04:45.3556|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 74.9311ms 
+2019-03-30 17:04:45.3741|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.3836ms 200 application/json; charset=utf-8 
+2019-03-30 17:04:49.5304|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/cate4   
+2019-03-30 17:04:49.5348|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 17:04:49.5690|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (cate4) - Validation state: Valid 
+2019-03-30 17:04:49.5690|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.5374ms. 
+2019-03-30 17:04:49.5690|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.CategoryDetailDto'. 
+2019-03-30 17:04:49.5690|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 39.491ms 
+2019-03-30 17:04:49.5690|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.7903ms 200 application/json; charset=utf-8 
+2019-03-30 17:21:18.1255||DEBUG|OGL.Web.Program|init main 
+2019-03-30 17:21:21.3168||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-30 17:21:21.7372||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-30 17:21:21.7755||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-30 17:21:21.7936||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-30 17:21:21.8123||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-30 17:21:21.8326||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-30 17:21:21.8558||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-30 17:21:21.8751||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-30 17:21:21.9018||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-30 17:21:21.9227||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-30 17:21:21.9469||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-30 17:21:21.9806||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-30 17:21:22.0101||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-30 17:21:22.0101||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 67a314ff-1045-4358-979c-b5a705e45702 
+2019-03-30 17:21:22.0310||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 67a314ff-1045-4358-979c-b5a705e45702 
+2019-03-30 17:21:22.0647||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-30 17:21:22.0683||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 11e2e253-72b1-4ff7-8273-4dd9c2f46d2f 
+2019-03-30 17:21:22.0683||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 11e2e253-72b1-4ff7-8273-4dd9c2f46d2f 
+2019-03-30 17:21:22.1063||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-30 17:21:22.1063||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: ffc76b4d-f723-4046-815a-adfdb42fe9c2 
+2019-03-30 17:21:22.1063||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: ffc76b4d-f723-4046-815a-adfdb42fe9c2 
+2019-03-30 17:21:22.1498||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-30 17:21:22.1498||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 2da68c85-12b4-477a-820e-b5cae9251839 
+2019-03-30 17:21:22.1498||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 2da68c85-12b4-477a-820e-b5cae9251839 
+2019-03-30 17:21:22.3163|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-30 17:21:22.7369|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 421.2251ms 404  
+2019-03-30 17:21:25.7073|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/   
+2019-03-30 17:21:25.8796|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) 
+2019-03-30 17:21:26.1547|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-30 17:21:26.2209|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 59.1419ms. 
+2019-03-30 17:21:26.2839|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.CategoryDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-30 17:21:26.3876|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.Get (Ogl.Web) in 496.7349ms 
+2019-03-30 17:21:26.3876|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 682.224ms 200 application/json; charset=utf-8 
+2019-03-30 17:21:32.7915|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/category/cate1   
+2019-03-30 17:21:32.8380|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Category"}. Executing action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) 
+2019-03-30 17:21:32.9599|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) with arguments (cate1) - Validation state: Valid 
+2019-03-30 17:21:32.9824|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 21.6164ms. 
+2019-03-30 17:21:32.9824|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.CategoryDetailDto'. 
+2019-03-30 17:21:32.9897|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ogl.Web.Controllers.CategoryController.GetAsync (Ogl.Web) in 150.3951ms 
+2019-03-30 17:21:32.9897|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 199.5459ms 200 application/json; charset=utf-8 

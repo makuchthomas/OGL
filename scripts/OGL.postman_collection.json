@@ -1,0 +1,376 @@
+{
+	"info": {
+		"_postman_id": "cb37ba17-59d2-43a6-a699-1a095b36403a",
+		"name": "OGL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Account",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"email\": \"test@test.com\", \"username\":\"useme\", \"password\": \"secret\", \"role\": \"user\"}"
+						},
+						"url": {
+							"raw": "https://localhost:44333/users",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:44331/users/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44331",
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:44333/users/user1@email.com",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"users",
+								"user1@email.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetUserUseToken",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTAwQGVtYWkuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoidXNlciIsImp0aSI6ImE4NmQyZmQwLWU2OTAtNDNhZS04ZDU5LWFjN2QzZWZmOTIzNSIsImlhdCI6MTU1MTAzMzA1ODczOCwibmJmIjoxNTUxMDMzMDU4LCJleHAiOjE1NTEwMzMzNTgsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzMxIn0.KVnFWyENCanEyhUN7WRkxmwTON2SDTsA3R_YJ0n0AUU",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:44333/users/user1@email.com",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"users",
+								"user1@email.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GenerateToken",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:44333/users/token",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"users",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"email\": \"user1@email.com\", \"password\": \"password\"}"
+						},
+						"url": {
+							"raw": "https://localhost:44333/users/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Get categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:44333/category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:44333/category/cate1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"category",
+								"cate1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create category",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"My event\",\n\t\"description\": \"My event description\",\n\t\"startDate\": \"2017-06-07\",\n\t\"endDate\": \"2017-06-08\",\n\t\"tickets\": 1000,\n\t\"price\": 50\n}"
+						},
+						"url": {
+							"raw": "https://localhost:44333/category",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update category",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"My updated event\",\n\t\"description\": \"My updated event description\"\n}"
+						},
+						"url": {
+							"raw": "https://localhost:44333/category/category_id",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"category",
+								"category_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete category",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:44333/category/category_id",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"category",
+								"category_id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Adv",
+			"item": [
+				{
+					"name": "Delete adv",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:44333/advertisement/adv_id/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"advertisement",
+								"adv_id",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateAdv",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"title\": \"sample\", \"content\": \"sample content\", \"userId\": \"4cb2a73e-3c1e-42e4-b19f-939b1aa1acad\", \"categoryId\":\"0c6512dc-dfc5-4258-b6de-73266c3babf6\"}"
+						},
+						"url": {
+							"raw": "https://localhost:44333/Advertisement/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44333",
+							"path": [
+								"Advertisement",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

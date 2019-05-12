@@ -1,0 +1,240 @@
+2019-03-31 22:37:00.8148||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 22:37:05.3594||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 22:37:05.4004||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 22:37:05.4161||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 22:37:05.4350||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 22:37:05.4504||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 22:37:05.4649||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 22:37:05.4822||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 22:37:05.4994||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 22:37:05.5163||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 22:37:05.5331||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 22:37:05.5501||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 22:37:05.5501||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 22:37:05.5696||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 1481a2d3-d0fa-42fb-b8c4-0a8ce45e5605 |url: |action: 
+2019-03-31 22:37:05.5696||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 1481a2d3-d0fa-42fb-b8c4-0a8ce45e5605 |url: |action: 
+2019-03-31 22:37:05.5910||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 22:37:05.5910||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 12db14e9-6a32-4ba6-90ba-2ca203ffbf02 |url: |action: 
+2019-03-31 22:37:05.5910||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 12db14e9-6a32-4ba6-90ba-2ca203ffbf02 |url: |action: 
+2019-03-31 22:37:05.6171||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 22:37:05.6171||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 7e6d3b2b-24f2-4c2d-8341-10ec3f02c5fc |url: |action: 
+2019-03-31 22:37:05.6171||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 7e6d3b2b-24f2-4c2d-8341-10ec3f02c5fc |url: |action: 
+2019-03-31 22:37:05.6374||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 22:37:05.6374||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 42784674-e8f1-491b-a232-fd7c5e8579e6 |url: |action: 
+2019-03-31 22:37:05.6374||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 42784674-e8f1-491b-a232-fd7c5e8579e6 |url: |action: 
+2019-03-31 23:04:46.7379||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:04:49.8477||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:04:49.8866||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:04:49.9005||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:04:49.9141||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:04:49.9302||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:04:49.9518||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:04:49.9863||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:04:50.0133||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:04:50.0443||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:04:50.0680||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:04:50.0931||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:04:50.1103||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:04:50.1148||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 750453d4-8e2d-43f1-ae60-1562d6c40904 |url: |action: 
+2019-03-31 23:04:50.1148||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 750453d4-8e2d-43f1-ae60-1562d6c40904 |url: |action: 
+2019-03-31 23:04:50.1445||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:04:50.1445||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 6411aa79-6ada-49bf-8c2e-123d3f3aedd9 |url: |action: 
+2019-03-31 23:04:50.1445||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 6411aa79-6ada-49bf-8c2e-123d3f3aedd9 |url: |action: 
+2019-03-31 23:04:50.1682||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:04:50.1682||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 88cd0f70-755a-48cd-b5ba-a5c48efaa206 |url: |action: 
+2019-03-31 23:04:50.1682||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 88cd0f70-755a-48cd-b5ba-a5c48efaa206 |url: |action: 
+2019-03-31 23:04:50.1922||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:04:50.1922||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 4d55f47d-93aa-4876-925a-2e1c253aab47 |url: |action: 
+2019-03-31 23:04:50.1922||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 4d55f47d-93aa-4876-925a-2e1c253aab47 |url: |action: 
+2019-03-31 23:24:19.0879||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:24:23.2806||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:24:23.3594||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:24:23.3955||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:24:23.4196||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:24:23.4402||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:24:23.4654||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:24:23.4878||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:24:23.5067||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:24:23.5251||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:24:23.5442||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:24:23.5640||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:24:23.5939||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:24:23.5939||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 201a68a8-ad0a-4231-9394-9a6486fd4b49 |url: |action: 
+2019-03-31 23:24:23.6207||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 201a68a8-ad0a-4231-9394-9a6486fd4b49 |url: |action: 
+2019-03-31 23:24:23.6425||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:24:23.6425||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 033a73ce-d887-43b1-a97e-c0327eb54115 |url: |action: 
+2019-03-31 23:24:23.6425||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 033a73ce-d887-43b1-a97e-c0327eb54115 |url: |action: 
+2019-03-31 23:24:23.6659||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:24:23.6659||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 950f2976-2d1d-4344-890a-fa0437dcddb1 |url: |action: 
+2019-03-31 23:24:23.6659||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 950f2976-2d1d-4344-890a-fa0437dcddb1 |url: |action: 
+2019-03-31 23:24:23.6897||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:24:23.6897||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 2b6bcd0e-09bb-4ee7-8396-88aab7f6458f |url: |action: 
+2019-03-31 23:24:23.6897||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 2b6bcd0e-09bb-4ee7-8396-88aab7f6458f |url: |action: 
+2019-03-31 23:34:37.2347||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:34:40.1840||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:34:40.2429||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:34:40.2776||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:34:40.3069||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:34:40.3283||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:34:40.3447||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:34:40.3610||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:34:40.3786||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:34:40.3992||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:34:40.4182||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:34:40.4348||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:34:40.4640||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:34:40.4713||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 172c78e5-f64f-4d32-802c-95e357a8a8af |url: |action: 
+2019-03-31 23:34:40.4713||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 172c78e5-f64f-4d32-802c-95e357a8a8af |url: |action: 
+2019-03-31 23:34:40.5013||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:34:40.5035||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: cb0f84c8-2909-4da0-bb51-3dcbca25cce3 |url: |action: 
+2019-03-31 23:34:40.5035||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: cb0f84c8-2909-4da0-bb51-3dcbca25cce3 |url: |action: 
+2019-03-31 23:34:40.5275||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:34:40.5275||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 4c9de112-66e3-40d6-8c2e-821e2abc3272 |url: |action: 
+2019-03-31 23:34:40.5275||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 4c9de112-66e3-40d6-8c2e-821e2abc3272 |url: |action: 
+2019-03-31 23:34:40.5469||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:34:40.5469||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: a8cd719f-d1a7-45ce-aab4-a4064d271664 |url: |action: 
+2019-03-31 23:34:40.5493||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: a8cd719f-d1a7-45ce-aab4-a4064d271664 |url: |action: 
+2019-03-31 23:43:22.3650||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:43:25.5717||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:43:25.6046||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:43:25.6260||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:43:25.6411||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:43:25.6572||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:43:25.6754||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:43:25.6904||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:43:25.7055||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:43:25.7209||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:43:25.7360||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:43:25.7502||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:43:25.7676||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:43:25.7723||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 9bc442c4-e411-4672-be0f-409c707e75b9 |url: |action: 
+2019-03-31 23:43:25.7723||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 9bc442c4-e411-4672-be0f-409c707e75b9 |url: |action: 
+2019-03-31 23:43:25.7982||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:43:25.7982||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 5d5723d6-4498-4bd3-ae66-5eb331ac20b6 |url: |action: 
+2019-03-31 23:43:25.7982||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 5d5723d6-4498-4bd3-ae66-5eb331ac20b6 |url: |action: 
+2019-03-31 23:43:25.8226||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:43:25.8226||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 7c975d6e-49c1-400e-836b-cd78caf081b1 |url: |action: 
+2019-03-31 23:43:25.8226||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 7c975d6e-49c1-400e-836b-cd78caf081b1 |url: |action: 
+2019-03-31 23:43:25.8514||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:43:25.8514||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: b8a23899-3f9a-4a13-989d-8d163bbb5819 |url: |action: 
+2019-03-31 23:43:25.8514||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: b8a23899-3f9a-4a13-989d-8d163bbb5819 |url: |action: 
+2019-03-31 23:46:00.3024||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:46:03.1717||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:46:03.2074||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:46:03.2387||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:46:03.2832||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:46:03.3028||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:46:03.3189||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:46:03.3344||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:46:03.3504||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:46:03.3657||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:46:03.3813||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:46:03.3999||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:46:03.4277||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:46:03.4356||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 832be7cd-fdbf-476f-b48d-3a5f793d8017 |url: |action: 
+2019-03-31 23:46:03.4356||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 832be7cd-fdbf-476f-b48d-3a5f793d8017 |url: |action: 
+2019-03-31 23:46:03.4629||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:46:03.4629||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 7e729508-f037-4172-95bb-033c3869c5cd |url: |action: 
+2019-03-31 23:46:03.4629||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 7e729508-f037-4172-95bb-033c3869c5cd |url: |action: 
+2019-03-31 23:46:03.4854||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:46:03.4854||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 21314088-c7b0-44be-aa01-f1d899c6fe38 |url: |action: 
+2019-03-31 23:46:03.4854||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 21314088-c7b0-44be-aa01-f1d899c6fe38 |url: |action: 
+2019-03-31 23:46:03.5108||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:46:03.5108||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: dd70e961-1666-4ac4-ac98-69f075bddac0 |url: |action: 
+2019-03-31 23:46:03.5108||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: dd70e961-1666-4ac4-ac98-69f075bddac0 |url: |action: 
+2019-03-31 23:46:53.7767||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:46:59.2010||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:46:59.2521||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:46:59.2731||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:46:59.3066||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:46:59.3424||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:46:59.3835||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:46:59.4230||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:46:59.4566||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:46:59.4884||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:46:59.5095||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:46:59.5322||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:46:59.5525||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:46:59.5602||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 8b3b77a5-a994-49e9-aec3-e1bec7e57ccf |url: |action: 
+2019-03-31 23:46:59.5602||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 8b3b77a5-a994-49e9-aec3-e1bec7e57ccf |url: |action: 
+2019-03-31 23:46:59.5889||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:46:59.5889||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 91099a7c-d519-4486-978e-f90a223a8db9 |url: |action: 
+2019-03-31 23:46:59.5889||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 91099a7c-d519-4486-978e-f90a223a8db9 |url: |action: 
+2019-03-31 23:46:59.6156||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:46:59.6178||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 5a0db60e-ce03-4aa3-ad9b-c44a1de38b6b |url: |action: 
+2019-03-31 23:46:59.6178||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 5a0db60e-ce03-4aa3-ad9b-c44a1de38b6b |url: |action: 
+2019-03-31 23:46:59.6466||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:46:59.6481||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 4a84a783-1440-4768-8ca8-0315210a64a9 |url: |action: 
+2019-03-31 23:46:59.6481||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 4a84a783-1440-4768-8ca8-0315210a64a9 |url: |action: 
+2019-03-31 23:47:51.6603||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:47:54.3828||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:47:54.4180||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:47:54.4327||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:47:54.4468||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:47:54.4468||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:47:54.4739||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:47:54.4879||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:47:54.5021||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:47:54.5181||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:47:54.5358||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:47:54.5504||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:47:54.5639||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:47:54.5639||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: c02b5ccc-9870-44e3-bcbd-8fa2e9e206a8 |url: |action: 
+2019-03-31 23:47:54.5751||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: c02b5ccc-9870-44e3-bcbd-8fa2e9e206a8 |url: |action: 
+2019-03-31 23:47:54.5907||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:47:54.5907||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 216b9da5-e62d-40c7-b58c-e465c77fd42f |url: |action: 
+2019-03-31 23:47:54.5907||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 216b9da5-e62d-40c7-b58c-e465c77fd42f |url: |action: 
+2019-03-31 23:47:54.6085||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:47:54.6085||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 02842e43-6133-48b2-9725-45911ab38302 |url: |action: 
+2019-03-31 23:47:54.6085||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 02842e43-6133-48b2-9725-45911ab38302 |url: |action: 
+2019-03-31 23:47:54.6255||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:47:54.6255||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 38631d44-4bdb-40da-9ef9-f79f85aee60a |url: |action: 
+2019-03-31 23:47:54.6255||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 38631d44-4bdb-40da-9ef9-f79f85aee60a |url: |action: 
+2019-03-31 23:51:52.0761||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:51:55.2211||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:51:55.2504||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:51:55.2726||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:51:55.2862||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:51:55.3000||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:51:55.3160||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:51:55.3307||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:51:55.3445||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:51:55.3583||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:51:55.3729||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:51:55.3860||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:51:55.3860||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:51:55.4056||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: a237c528-105a-46d6-be51-dbc3da34723b |url: |action: 
+2019-03-31 23:51:55.4056||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: a237c528-105a-46d6-be51-dbc3da34723b |url: |action: 
+2019-03-31 23:51:55.4255||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:51:55.4255||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: cf8a6ede-2963-47e6-a029-cace86b14ef1 |url: |action: 
+2019-03-31 23:51:55.4255||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: cf8a6ede-2963-47e6-a029-cace86b14ef1 |url: |action: 
+2019-03-31 23:51:55.4426||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:51:55.4426||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 8712b414-f34e-4a75-b01f-3927a2d82576 |url: |action: 
+2019-03-31 23:51:55.4426||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 8712b414-f34e-4a75-b01f-3927a2d82576 |url: |action: 
+2019-03-31 23:51:55.4593||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:51:55.4593||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: e434d0c3-9ded-45ee-aea2-3f40cb8b915f |url: |action: 
+2019-03-31 23:51:55.4593||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: e434d0c3-9ded-45ee-aea2-3f40cb8b915f |url: |action: 
+2019-03-31 23:55:35.0617||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-31 23:55:38.2528||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-31 23:55:38.2844||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-31 23:55:38.3084||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-31 23:55:38.3268||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-31 23:55:38.3606||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-31 23:55:38.3801||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-31 23:55:38.4019||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-31 23:55:38.4222||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-31 23:55:38.4445||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-31 23:55:38.4696||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-31 23:55:38.4868||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-31 23:55:38.5010||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-31 23:55:38.5010||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 867bba46-7439-43cb-9de5-50bffabc01ac |url: |action: 
+2019-03-31 23:55:38.5117||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 867bba46-7439-43cb-9de5-50bffabc01ac |url: |action: 
+2019-03-31 23:55:38.5117||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-31 23:55:38.5281||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: db837581-e915-4304-bfb9-fddbbf80b687 |url: |action: 
+2019-03-31 23:55:38.5281||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: db837581-e915-4304-bfb9-fddbbf80b687 |url: |action: 
+2019-03-31 23:55:38.5434||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-31 23:55:38.5434||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 1d29f2f6-82a0-4bca-97ca-43ad12d0f0cf |url: |action: 
+2019-03-31 23:55:38.5434||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 1d29f2f6-82a0-4bca-97ca-43ad12d0f0cf |url: |action: 
+2019-03-31 23:55:38.5607||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-31 23:55:38.5607||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: f8cfe5a0-6618-433a-9eb4-b62c0458c066 |url: |action: 
+2019-03-31 23:55:38.5607||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: f8cfe5a0-6618-433a-9eb4-b62c0458c066 |url: |action: 

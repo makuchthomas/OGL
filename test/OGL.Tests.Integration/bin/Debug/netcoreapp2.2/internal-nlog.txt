@@ -1,0 +1,86 @@
+2019-03-25 21:34:04.8208 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-03-25 21:34:04.8292 Info Message Template Auto Format enabled
+2019-03-25 21:34:04.8292 Info Loading assembly: NLog.Web.AspNetCore
+2019-03-25 21:34:04.9038 Info Adding target FileTarget(Name=allfile)
+2019-03-25 21:34:04.9059 Info Adding target FileTarget(Name=ownFile-web)
+2019-03-25 21:34:04.9396 Info Found 45 configuration items
+2019-03-25 21:34:04.9396 Info Configuration initialized.
+2019-03-25 21:34:04.9552 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.0.9261. Product version: 4.6.0.
+2019-03-25 21:34:06.1458 Info AppDomain Shutting down. Logger closing...
+2019-03-25 21:34:06.1651 Info Logger has been shut down.
+2019-04-07 20:16:43.4892 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:16:43.5135 Info Message Template Auto Format enabled
+2019-04-07 20:16:43.5365 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:16:43.8067 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:16:43.8191 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:16:43.9980 Info Found 45 configuration items
+2019-04-07 20:16:44.0667 Info Configuration initialized.
+2019-04-07 20:16:44.0855 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:16:51.8139 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:19:57.4738 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:19:57.4987 Info Message Template Auto Format enabled
+2019-04-07 20:19:57.5256 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:19:57.8398 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:19:57.8520 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:19:58.0549 Info Found 45 configuration items
+2019-04-07 20:19:58.1304 Info Configuration initialized.
+2019-04-07 20:19:58.1518 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:20:04.0072 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:22:54.7630 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:22:54.7678 Info Message Template Auto Format enabled
+2019-04-07 20:22:54.7678 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:22:54.8371 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:22:54.8371 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:22:54.8749 Info Found 45 configuration items
+2019-04-07 20:22:54.8749 Info Configuration initialized.
+2019-04-07 20:22:54.8908 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:22:55.6984 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:22:55.7207 Info Logger has been shut down.
+2019-04-07 20:45:55.7717 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:45:55.7717 Info Message Template Auto Format enabled
+2019-04-07 20:45:55.7828 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:45:55.8471 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:45:55.8471 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:45:55.8841 Info Found 45 configuration items
+2019-04-07 20:45:55.8999 Info Configuration initialized.
+2019-04-07 20:45:55.9140 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:46:47.0500 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:46:47.0839 Info Logger has been shut down.
+2019-04-07 20:51:37.6504 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:51:37.6504 Info Message Template Auto Format enabled
+2019-04-07 20:51:37.6600 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:51:37.7142 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:51:37.7142 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:51:37.7503 Info Found 45 configuration items
+2019-04-07 20:51:37.7503 Info Configuration initialized.
+2019-04-07 20:51:37.7665 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:51:38.6500 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:51:38.6713 Info Logger has been shut down.
+2019-04-07 20:55:51.8905 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:55:51.9154 Info Message Template Auto Format enabled
+2019-04-07 20:55:51.9420 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:55:52.2731 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:55:52.2885 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:55:52.4935 Info Found 45 configuration items
+2019-04-07 20:55:52.5615 Info Configuration initialized.
+2019-04-07 20:55:52.5768 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:55:59.8709 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:55:59.8912 Info Logger has been shut down.
+2019-04-07 20:59:21.1491 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:59:21.1636 Info Message Template Auto Format enabled
+2019-04-07 20:59:21.1636 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:59:21.2298 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:59:21.2298 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:59:21.2670 Info Found 45 configuration items
+2019-04-07 20:59:21.2670 Info Configuration initialized.
+2019-04-07 20:59:21.2928 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-13 07:53:16.7414 Info Message Template Auto Format enabled
+2019-04-13 07:53:16.7564 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-13 07:53:16.8036 Info Adding target File Target[allfile]
+2019-04-13 07:53:16.8036 Info Adding target File Target[ownFile-web]
+2019-04-13 07:53:16.8036 Info Configured from an XML element in C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\test\OGL.Tests.Integration\bin\Debug\netcoreapp2.2\NLog.config...
+2019-04-13 07:53:16.8281 Info Found 45 configuration items
+2019-04-13 07:53:16.8475 Info Configuration initialized.
+2019-04-13 07:53:16.8475 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
+2019-04-13 07:53:18.1463 Info Shutting down logging...
+2019-04-13 07:53:18.1661 Info Logger has been shut down.

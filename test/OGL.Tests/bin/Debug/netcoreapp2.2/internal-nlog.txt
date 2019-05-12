@@ -1,0 +1,40 @@
+2019-04-07 20:16:57.5841 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:16:57.5939 Info Message Template Auto Format enabled
+2019-04-07 20:16:57.5939 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:16:57.6817 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:16:57.6817 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:16:57.7274 Info Found 45 configuration items
+2019-04-07 20:16:57.7418 Info Configuration initialized.
+2019-04-07 20:16:57.7418 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:16:57.8476 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:16:57.8678 Info Logger has been shut down.
+2019-04-07 20:43:51.4168 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2019-04-07 20:43:51.4168 Info Message Template Auto Format enabled
+2019-04-07 20:43:51.4246 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-07 20:43:51.4862 Info Adding target FileTarget(Name=allfile)
+2019-04-07 20:43:51.4862 Info Adding target FileTarget(Name=ownFile-web)
+2019-04-07 20:43:51.5245 Info Found 45 configuration items
+2019-04-07 20:43:51.5371 Info Configuration initialized.
+2019-04-07 20:43:51.5371 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.1.9459. Product version: 4.6.1.
+2019-04-07 20:43:51.6534 Info AppDomain Shutting down. Logger closing...
+2019-04-07 20:43:51.6724 Info Logger has been shut down.
+2019-04-10 21:48:25.0601 Info Message Template Auto Format enabled
+2019-04-10 21:48:25.0722 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-10 21:48:25.1195 Info Adding target File Target[allfile]
+2019-04-10 21:48:25.1195 Info Adding target File Target[ownFile-web]
+2019-04-10 21:48:25.1286 Info Configured from an XML element in C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\OGL.Tests\bin\Debug\netcoreapp2.2\NLog.config...
+2019-04-10 21:48:25.1446 Info Found 45 configuration items
+2019-04-10 21:48:25.1646 Info Configuration initialized.
+2019-04-10 21:48:25.1646 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
+2019-04-10 21:48:25.2358 Info Shutting down logging...
+2019-04-10 21:48:25.2584 Info Logger has been shut down.
+2019-04-13 07:53:20.2893 Info Message Template Auto Format enabled
+2019-04-13 07:53:20.3010 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-13 07:53:20.3495 Info Adding target File Target[allfile]
+2019-04-13 07:53:20.3495 Info Adding target File Target[ownFile-web]
+2019-04-13 07:53:20.3495 Info Configured from an XML element in C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\test\OGL.Tests\bin\Debug\netcoreapp2.2\NLog.config...
+2019-04-13 07:53:20.3743 Info Found 45 configuration items
+2019-04-13 07:53:20.3939 Info Configuration initialized.
+2019-04-13 07:53:20.3939 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
+2019-04-13 07:53:20.4616 Info Shutting down logging...
+2019-04-13 07:53:20.4767 Info Logger has been shut down.

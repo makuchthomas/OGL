@@ -1,0 +1,197 @@
+2019-03-10 20:22:21.1744||DEBUG|OGL.Web.Program|init main 
+2019-03-10 20:22:25.2651||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-10 20:22:25.9877|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-10 20:22:26.5478|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 560.6424ms 404  
+2019-03-10 20:22:33.9028|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-10 20:22:33.9364|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.5951ms 404  
+2019-03-10 20:23:25.8262|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-10 20:23:25.9095|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 20:23:25.9882|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 57.0407ms 
+2019-03-10 20:23:26.0010|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = UserService (ReflectionActivator), Services = [OGL.Infrastructure.Services.IUserService, OGL.Infrastructure.Services.IService], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'OGL.Infrastructure.Services.UserService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'OGL.Infrastructure.Services.IEncrypter encrypter' of constructor 'Void .ctor(OGL.Core.Repositories.IUserRepository, AutoMapper.IMapper, OGL.Infrastructure.Services.IEncrypter)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'OGL.Infrastructure.Services.UserService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'OGL.Infrastructure.Services.IEncrypter encrypter' of constructor 'Void .ctor(OGL.Core.Repositories.IUserRepository, AutoMapper.IMapper, OGL.Infrastructure.Services.IEncrypter)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 160
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 120
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 115
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 133
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator) in C:\projects\autofac\src\Autofac\Core\Lifetime\LifetimeScope.cs:line 306
+   at Autofac.Core.Resolving.InstanceLookup.Execute() in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 82
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 130
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 83
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 1041
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 814
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-03-10 20:23:26.2376|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 411.3277ms 500 text/html; charset=utf-8 
+2019-03-10 20:23:26.4226|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-10 20:23:26.4226|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 20:23:26.4226|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 1.6743ms 
+2019-03-10 20:23:26.4226|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = UserService (ReflectionActivator), Services = [OGL.Infrastructure.Services.IUserService, OGL.Infrastructure.Services.IService], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'OGL.Infrastructure.Services.UserService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'OGL.Infrastructure.Services.IEncrypter encrypter' of constructor 'Void .ctor(OGL.Core.Repositories.IUserRepository, AutoMapper.IMapper, OGL.Infrastructure.Services.IEncrypter)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'OGL.Infrastructure.Services.UserService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'OGL.Infrastructure.Services.IEncrypter encrypter' of constructor 'Void .ctor(OGL.Core.Repositories.IUserRepository, AutoMapper.IMapper, OGL.Infrastructure.Services.IEncrypter)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 160
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 120
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 115
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 133
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator) in C:\projects\autofac\src\Autofac\Core\Lifetime\LifetimeScope.cs:line 306
+   at Autofac.Core.Resolving.InstanceLookup.Execute() in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 82
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 130
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 83
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 1041
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 814
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-03-10 20:23:26.4458|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.1967ms 500 text/html; charset=utf-8 
+2019-03-10 20:26:34.1642||DEBUG|OGL.Web.Program|init main 
+2019-03-10 20:26:36.2125||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-10 20:26:36.6133|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-10 20:26:36.8913|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 271.2755ms 404  
+2019-03-10 20:26:39.4750|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-10 20:26:39.4972|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.1899ms 404  
+2019-03-10 20:26:59.8562|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user5@email.com   
+2019-03-10 20:26:59.9214|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 20:26:59.9619|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 23.8031ms 
+2019-03-10 20:26:59.9619|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = UserService (ReflectionActivator), Services = [OGL.Infrastructure.Services.IUserService, OGL.Infrastructure.Services.IService], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'OGL.Infrastructure.Services.UserService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'OGL.Infrastructure.Services.IEncrypter encrypter' of constructor 'Void .ctor(OGL.Core.Repositories.IUserRepository, AutoMapper.IMapper, OGL.Infrastructure.Services.IEncrypter)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'OGL.Infrastructure.Services.UserService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'OGL.Infrastructure.Services.IEncrypter encrypter' of constructor 'Void .ctor(OGL.Core.Repositories.IUserRepository, AutoMapper.IMapper, OGL.Infrastructure.Services.IEncrypter)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 160
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 120
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 115
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 133
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator) in C:\projects\autofac\src\Autofac\Core\Lifetime\LifetimeScope.cs:line 306
+   at Autofac.Core.Resolving.InstanceLookup.Execute() in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 82
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 130
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 83
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 1041
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 814
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-03-10 20:27:00.0802|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 224.0003ms 500 text/html; charset=utf-8 
+2019-03-10 20:29:20.3360||DEBUG|OGL.Web.Program|init main 
+2019-03-10 20:29:22.4635||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-10 20:29:22.8683|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-10 20:29:23.1447|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 276.859ms 404  
+2019-03-10 20:29:23.2368|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-10 20:29:23.3636|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 20:29:23.6359|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-10 20:29:23.6788|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 37.7304ms. 
+2019-03-10 20:29:23.7040|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 20:29:23.7518|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 378.0624ms 
+2019-03-10 20:29:23.7518|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 516.4241ms 200 application/json; charset=utf-8 
+2019-03-10 20:29:27.2528|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-10 20:29:27.2528|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 20:29:27.2773|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-10 20:29:27.2773|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.7596ms. 
+2019-03-10 20:29:27.2773|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 20:29:27.2801|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 21.9726ms 
+2019-03-10 20:29:27.2801|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.8235ms 200 application/json; charset=utf-8 
+2019-03-10 20:29:34.7534|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-10 20:29:34.7673|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.8867ms 404  
+2019-03-10 20:29:37.6465|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-10 20:29:37.6465|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 20:29:37.6653|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-10 20:29:37.6653|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0609ms. 
+2019-03-10 20:29:37.6653|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 20:29:37.6653|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 19.2568ms 
+2019-03-10 20:29:37.6653|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.1251ms 200 application/json; charset=utf-8 
+2019-03-10 21:32:57.6498||DEBUG|OGL.Web.Program|init main 
+2019-03-10 21:44:34.5486||DEBUG|OGL.Web.Program|init main 
+2019-03-10 21:44:37.0046||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-10 21:44:37.4004|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-10 21:44:37.6895|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 289.2964ms 404  
+2019-03-10 21:44:49.2617|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com   
+2019-03-10 21:44:49.3476|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:44:49.5273|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-10 21:44:49.5550|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 24.6543ms. 
+2019-03-10 21:44:49.5765|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:44:49.6272|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 266.756ms 
+2019-03-10 21:44:49.6272|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 366.4879ms 200 application/json; charset=utf-8 
+2019-03-10 21:44:50.2972|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com/   
+2019-03-10 21:44:50.2972|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:44:50.3245|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-10 21:44:50.3245|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.7834ms. 
+2019-03-10 21:44:50.3245|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:44:50.3276|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 24.9209ms 
+2019-03-10 21:44:50.3276|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.0925ms 200 application/json; charset=utf-8 
+2019-03-10 21:45:01.1814|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user2@email.com/   
+2019-03-10 21:45:01.1814|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:45:01.2086|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user2@email.com) - Validation state: Valid 
+2019-03-10 21:45:01.2086|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0573ms. 
+2019-03-10 21:45:01.2086|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:45:01.2086|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 26.2899ms 
+2019-03-10 21:45:01.2086|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.784ms 200 application/json; charset=utf-8 
+2019-03-10 21:45:06.1981|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user3@email.com/   
+2019-03-10 21:45:06.1981|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:45:06.2221|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user3@email.com) - Validation state: Valid 
+2019-03-10 21:45:06.2221|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0513ms. 
+2019-03-10 21:45:06.2221|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:45:06.2221|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 23.6755ms 
+2019-03-10 21:45:06.2221|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.2685ms 200 application/json; charset=utf-8 
+2019-03-10 21:51:26.2933||DEBUG|OGL.Web.Program|init main 
+2019-03-10 21:51:28.7481||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-10 21:51:29.1562|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-10 21:51:29.4379|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 282.0616ms 404  
+2019-03-10 21:51:35.0087|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user1@email.com/   
+2019-03-10 21:51:35.1056|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:51:35.2704|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user1@email.com) - Validation state: Valid 
+2019-03-10 21:51:35.3016|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 27.9783ms. 
+2019-03-10 21:51:35.3246|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:51:35.3784|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 267.5019ms 
+2019-03-10 21:51:35.3784|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 370.9307ms 200 application/json; charset=utf-8 
+2019-03-10 21:51:39.1376|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user2@email.com/   
+2019-03-10 21:51:39.1504|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:51:39.1718|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user2@email.com) - Validation state: Valid 
+2019-03-10 21:51:39.1718|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.2244ms. 
+2019-03-10 21:51:39.1718|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:51:39.1718|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 25.435ms 
+2019-03-10 21:51:39.1718|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.7492ms 200 application/json; charset=utf-8 
+2019-03-10 21:51:41.5942|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user3@email.com/   
+2019-03-10 21:51:41.5942|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:51:41.6205|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user3@email.com) - Validation state: Valid 
+2019-03-10 21:51:41.6205|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.099ms. 
+2019-03-10 21:51:41.6205|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:51:41.6205|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 24.3808ms 
+2019-03-10 21:51:41.6205|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.0077ms 200 application/json; charset=utf-8 
+2019-03-10 21:51:45.5199|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user4@email.com/   
+2019-03-10 21:51:45.5199|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-10 21:51:45.5501|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user4@email.com) - Validation state: Valid 
+2019-03-10 21:51:45.5501|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0366ms. 
+2019-03-10 21:51:45.5501|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-10 21:51:45.5501|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 30.3408ms 
+2019-03-10 21:51:45.5501|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.3821ms 200 application/json; charset=utf-8 

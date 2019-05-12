@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\test\\OGL.Tests.Integration\\OGL.Tests.Integration.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\OGL.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\OGL.Core.csproj",
+        "projectName": "OGL.Core",
+        "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\OGL.Core.csproj",
+        "packagesPath": "C:\\Users\\Tomasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tomasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\OGL.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\OGL.Infrastructure.csproj",
+        "projectName": "OGL.Infrastructure",
+        "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\OGL.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Tomasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tomasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\OGL.Core.csproj": {
+                "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\OGL.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\Ogl.Web\\Ogl.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\Ogl.Web\\Ogl.Web.csproj",
+        "projectName": "Ogl.Web",
+        "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\Ogl.Web\\Ogl.Web.csproj",
+        "packagesPath": "C:\\Users\\Tomasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\Ogl.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tomasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\OGL.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\OGL.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\test\\OGL.Tests.Integration\\OGL.Tests.Integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\test\\OGL.Tests.Integration\\OGL.Tests.Integration.csproj",
+        "projectName": "OGL.Tests.Integration",
+        "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\test\\OGL.Tests.Integration\\OGL.Tests.Integration.csproj",
+        "packagesPath": "C:\\Users\\Tomasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\test\\OGL.Tests.Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tomasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\OGL.Core.csproj": {
+                "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Core\\OGL.Core.csproj"
+              },
+              "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\OGL.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\OGL.Infrastructure\\OGL.Infrastructure.csproj"
+              },
+              "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\Ogl.Web\\Ogl.Web.csproj": {
+                "projectPath": "C:\\Users\\Tomasz\\Desktop\\Programowanie\\C#\\OGL\\src\\Ogl.Web\\Ogl.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

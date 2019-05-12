@@ -1,0 +1,243 @@
+2019-03-29 14:05:46.9629||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 14:05:54.0831||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 14:07:14.8785||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 14:07:20.3844||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 14:07:55.6348||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 14:08:01.8206||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 14:08:07.9822|1|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web) |url: https://localhost/home/|action: 
+2019-03-29 14:08:07.9910|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/home/|action: 
+2019-03-29 14:09:41.6845||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 14:09:48.1593||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 14:09:57.7925|1|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web) |url: https://localhost/home|action: 
+2019-03-29 14:09:57.8002|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Index (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Privacy (Ogl.Web)
+Ogl.Web.Controllers.HomeController.Error (Ogl.Web)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/home|action: 
+2019-03-29 15:15:11.2075||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 15:15:56.4127||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 15:17:03.5967||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 15:17:09.9377||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 15:18:11.0241||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 15:18:16.4077||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 15:19:01.3791||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 15:19:05.6170||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 15:38:32.2467||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 15:38:36.3901||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 15:38:37.1618||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-29 15:38:37.3067||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-29 15:38:37.4168||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-29 15:38:37.5314||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-29 15:38:37.6453||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-29 15:38:37.7510||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-29 15:38:37.8546||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-29 15:38:37.9582||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-29 15:38:38.0634||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-29 15:38:38.1578||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-29 15:38:38.2583||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-29 15:38:38.2583||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 0bd48802-de9d-46ae-8369-3fee89de9134 |url: |action: 
+2019-03-29 15:38:38.3184||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 0bd48802-de9d-46ae-8369-3fee89de9134 |url: |action: 
+2019-03-29 15:38:38.4269||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-29 15:38:38.4269||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 8b425afe-fe1e-4fdf-90b6-d5befc47bd40 |url: |action: 
+2019-03-29 15:38:38.4711||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 8b425afe-fe1e-4fdf-90b6-d5befc47bd40 |url: |action: 
+2019-03-29 15:38:38.5728||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-29 15:38:38.5728||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: f9a1c079-6136-497d-b0ec-b62922334d52 |url: |action: 
+2019-03-29 15:38:38.6253||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: f9a1c079-6136-497d-b0ec-b62922334d52 |url: |action: 
+2019-03-29 15:38:38.7603||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-29 15:38:38.7603||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 78dcc22c-f677-46ec-abb5-43ddf460800c |url: |action: 
+2019-03-29 15:38:38.8005||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 78dcc22c-f677-46ec-abb5-43ddf460800c |url: |action: 
+2019-03-29 16:34:37.4329||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:34:42.3535||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. |url: |action: 
+2019-03-29 16:36:24.7172||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:36:29.1191||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 16:37:45.7517||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:37:50.7530||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 16:40:55.9358||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:41:00.5278||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 16:41:58.3811||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:42:01.4482||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 16:43:34.4229||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:43:37.2941||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 16:43:39.1857||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-29 16:43:39.3616||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-29 16:43:39.4641||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-29 16:43:39.5604||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-29 16:43:39.6624||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-29 16:43:39.7805||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-29 16:43:39.8853||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-29 16:43:39.9928||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-29 16:43:40.0915||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-29 16:43:40.1855||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-29 16:43:40.2826||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-29 16:43:40.2826||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 226fb548-fcf3-4ba1-b247-c2c39b1e8040 |url: |action: 
+2019-03-29 16:43:40.3505||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 226fb548-fcf3-4ba1-b247-c2c39b1e8040 |url: |action: 
+2019-03-29 16:43:40.5050|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (36ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Advertisements] ([AdvertisementId], [CategoryId], [Content], [CreatedAt], [Title], [UpdatedAt], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6); System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Advertisements'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:757817b7-5663-43d7-bc4b-d075c80ec12b
+Error Number:208,State:1,Class:16|url: |action: 
+2019-03-29 16:43:40.5488|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'OGL.Infrastructure.EF.OglContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'Advertisements'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'Advertisements'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: |action: 
+2019-03-29 16:52:07.5272||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:52:11.0587||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 16:53:19.2959||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 16:53:23.4138||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 16:53:26.1573||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-29 16:53:26.3842||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-29 16:53:26.5327||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-29 17:29:43.5008||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 17:29:47.1099||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 17:29:49.7993||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-29 17:29:50.1117||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-29 17:29:50.2600||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-29 17:29:50.3999||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-29 17:29:50.5259||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-29 17:29:50.6649||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-29 17:29:50.7979||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-29 17:29:50.9228||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-29 17:29:51.0523||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-29 17:29:51.1883||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-29 17:29:51.3289||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-29 17:29:51.3289||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: dd28c160-42c9-4698-b7d7-00273d46497c |url: |action: 
+2019-03-29 17:29:51.4067||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: dd28c160-42c9-4698-b7d7-00273d46497c |url: |action: 
+2019-03-29 17:29:51.6374|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (51ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Advertisements] ([AdvertisementId], [CategoryId], [Content], [CreatedAt], [Title], [UpdatedAt], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6); System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Advertisements'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:17dcec40-8c2a-4c9b-a493-fc6b48a1c338
+Error Number:208,State:1,Class:16|url: |action: 
+2019-03-29 17:29:51.6962|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'OGL.Infrastructure.EF.OglContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'Advertisements'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'Advertisements'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: |action: 
+2019-03-29 17:31:53.0810||DEBUG|OGL.Web.Program|init main |url: |action: 
+2019-03-29 17:31:56.3331||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. |url: |action: 
+2019-03-29 17:31:56.3662||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 |url: |action: 
+2019-03-29 17:31:56.3801||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 |url: |action: 
+2019-03-29 17:31:56.3934||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 |url: |action: 
+2019-03-29 17:31:56.4086||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 |url: |action: 
+2019-03-29 17:31:56.4228||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 |url: |action: 
+2019-03-29 17:31:56.4383||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 |url: |action: 
+2019-03-29 17:31:56.4528||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 |url: |action: 
+2019-03-29 17:31:56.4528||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 |url: |action: 
+2019-03-29 17:31:56.4807||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 |url: |action: 
+2019-03-29 17:31:56.4942||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 |url: |action: 
+2019-03-29 17:31:56.5085||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 |url: |action: 
+2019-03-29 17:31:56.5085||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: ec8300ec-6f18-44ed-af8a-fb1a0107bd59 |url: |action: 
+2019-03-29 17:31:56.5189||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: ec8300ec-6f18-44ed-af8a-fb1a0107bd59 |url: |action: 
+2019-03-29 17:31:56.5330||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 |url: |action: 
+2019-03-29 17:31:56.5330||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 8eab9c70-2957-48ff-8eb2-4759f9affaaf |url: |action: 
+2019-03-29 17:31:56.5330||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 8eab9c70-2957-48ff-8eb2-4759f9affaaf |url: |action: 
+2019-03-29 17:31:56.5486||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 |url: |action: 
+2019-03-29 17:31:56.5486||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 5b4b37f4-2987-4efd-91ee-8f5550e05f67 |url: |action: 
+2019-03-29 17:31:56.5486||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 5b4b37f4-2987-4efd-91ee-8f5550e05f67 |url: |action: 
+2019-03-29 17:31:56.5639||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 |url: |action: 
+2019-03-29 17:31:56.5639||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding category: 9ef2e9ae-1a75-4ed1-b300-f435a00d7a64 |url: |action: 
+2019-03-29 17:31:56.5639||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding advertisement to: 9ef2e9ae-1a75-4ed1-b300-f435a00d7a64 |url: |action: 

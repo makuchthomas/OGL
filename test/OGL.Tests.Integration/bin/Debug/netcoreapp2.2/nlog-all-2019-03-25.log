@@ -1,0 +1,17 @@
+2019-03-25 21:34:04.9552||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-25 21:34:05.0172||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-25 21:34:05.0312||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-25 21:34:05.0312||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-25 21:34:05.0543||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-25 21:34:05.0658||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-25 21:34:05.0658||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-25 21:34:05.0890||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-25 21:34:05.1005||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-25 21:34:05.1270||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-25 21:34:05.1270||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-25 21:34:05.1508||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-25 21:34:05.1671||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-25 21:34:05.1802||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-25 21:34:05.1971||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-25 21:34:05.9606||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. 
+2019-03-25 21:34:06.0918||TRACE|OGL.Infrastructure.Services.DataInitializer|Data was already initialized. 

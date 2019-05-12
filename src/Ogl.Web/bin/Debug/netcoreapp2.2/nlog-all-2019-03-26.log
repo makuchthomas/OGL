@@ -1,0 +1,103 @@
+2019-03-26 20:06:35.6529||DEBUG|OGL.Web.Program|init main 
+2019-03-26 20:06:40.4135||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-26 20:06:41.0096||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-26 20:06:41.0454||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-26 20:06:41.0653||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-26 20:06:41.0850||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-26 20:06:41.1220||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-26 20:06:41.1406||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-26 20:06:41.1609||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-26 20:06:41.1813||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-26 20:06:41.2048||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-26 20:06:41.2269||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-26 20:06:41.2457||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-26 20:06:41.2639||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-26 20:06:41.2812||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-26 20:06:41.2996||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-26 20:06:41.3272||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-26 20:06:41.5070|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-26 20:06:42.0297|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 523.5728ms 404  
+2019-03-26 20:06:42.1464|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/robots.txt   
+2019-03-26 20:06:42.1464|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.0107ms 404  
+2019-03-26 22:30:23.9475||DEBUG|OGL.Web.Program|init main 
+2019-03-26 22:30:28.1542||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-26 22:30:28.6620||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-26 22:30:28.7025||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-26 22:30:28.7246||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-26 22:30:28.7440||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-26 22:30:28.7629||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-26 22:30:28.7813||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-26 22:30:28.8008||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-26 22:30:28.8247||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-26 22:30:28.8454||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-26 22:30:28.8640||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-26 22:30:28.8863||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-26 22:30:28.9111||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-26 22:30:28.9281||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-26 22:30:28.9453||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-26 22:30:28.9624||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-26 22:30:29.1107|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-26 22:30:29.5696|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 459.6156ms 404  
+2019-03-26 22:31:33.6708|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/user3@email.com/   
+2019-03-26 22:31:33.7628|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAsync", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) 
+2019-03-26 22:31:33.9830|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) with arguments (user3@email.com) - Validation state: Valid 
+2019-03-26 22:31:33.9953|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 8.4455ms. 
+2019-03-26 22:31:34.0186|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'OGL.Infrastructure.DTO.UserDto'. 
+2019-03-26 22:31:34.0962|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.GetAsync (Ogl.Web) in 312.2074ms 
+2019-03-26 22:31:34.0962|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 435.346ms 200 application/json; charset=utf-8 
+2019-03-26 22:31:34.4559|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/favicon.ico   
+2019-03-26 22:31:34.4559|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.1128ms 404  
+2019-03-26 22:31:42.0442|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-26 22:31:42.0442|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.9947ms 404  
+2019-03-26 22:33:31.4782||DEBUG|OGL.Web.Program|init main 
+2019-03-26 22:33:33.7078||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-26 22:33:34.0251||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-26 22:33:34.0521||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-26 22:33:34.0745||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-26 22:33:34.0877||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-26 22:33:34.1014||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-26 22:33:34.1157||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-26 22:33:34.1285||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-26 22:33:34.1425||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-26 22:33:34.1565||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-26 22:33:34.1779||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-26 22:33:34.1908||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-26 22:33:34.2035||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-26 22:33:34.2035||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-26 22:33:34.2299||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-26 22:33:34.2435||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-26 22:33:34.3511|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-26 22:33:34.6189|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 268.379ms 404  
+2019-03-26 22:33:46.2327|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-26 22:33:46.2973|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.Get (Ogl.Web) 
+2019-03-26 22:33:46.4153|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-26 22:33:46.4228|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4.2457ms. 
+2019-03-26 22:33:46.4455|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.UserDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-26 22:33:46.5018|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.Get (Ogl.Web) in 198.5377ms 
+2019-03-26 22:33:46.5018|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 270.3344ms 200 application/json; charset=utf-8 
+2019-03-26 22:35:45.3343||DEBUG|OGL.Web.Program|init main 
+2019-03-26 22:35:47.2169||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Tomasz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-26 22:35:47.5769||TRACE|OGL.Infrastructure.Services.DataInitializer|Initializing data.. 
+2019-03-26 22:35:47.6072||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user1 
+2019-03-26 22:35:47.6209||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user2 
+2019-03-26 22:35:47.6349||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user3 
+2019-03-26 22:35:47.6502||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user4 
+2019-03-26 22:35:47.6634||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user5 
+2019-03-26 22:35:47.6806||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user6 
+2019-03-26 22:35:47.6942||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user7 
+2019-03-26 22:35:47.7074||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user8 
+2019-03-26 22:35:47.7209||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user9 
+2019-03-26 22:35:47.7345||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding user: user10 
+2019-03-26 22:35:47.7345||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser1 
+2019-03-26 22:35:47.7690||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser2 
+2019-03-26 22:35:47.7823||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser3 
+2019-03-26 22:35:47.7969||TRACE|OGL.Infrastructure.Services.DataInitializer|Adding admin: adminuser4 
+2019-03-26 22:35:47.9048|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/   
+2019-03-26 22:35:48.1975|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 292.9654ms 404  
+2019-03-26 22:35:52.9933|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44333/users/   
+2019-03-26 22:35:53.0613|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing action OGL.Api.Controllers.UsersController.Get (Ogl.Web) 
+2019-03-26 22:35:53.1800|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method OGL.Api.Controllers.UsersController.Get (Ogl.Web) - Validation state: Valid 
+2019-03-26 22:35:53.1880|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method OGL.Api.Controllers.UsersController.Get (Ogl.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4.7596ms. 
+2019-03-26 22:35:53.2111|1|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[OGL.Infrastructure.DTO.UserDto, OGL.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-03-26 22:35:53.2683|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action OGL.Api.Controllers.UsersController.Get (Ogl.Web) in 201.8356ms 
+2019-03-26 22:35:53.2683|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 276.2161ms 200 application/json; charset=utf-8 

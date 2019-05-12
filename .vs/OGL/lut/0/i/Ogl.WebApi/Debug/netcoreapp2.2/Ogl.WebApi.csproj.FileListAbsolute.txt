@@ -1,0 +1,3 @@
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.WebApi\Debug\netcoreapp2.2\Ogl.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.WebApi\Debug\netcoreapp2.2\Ogl.WebApi.AssemblyInfoInputs.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.WebApi\Debug\netcoreapp2.2\Ogl.WebApi.AssemblyInfo.cs

@@ -1,0 +1,14 @@
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Api\Debug\netcoreapp2.2\OGL.Api.deps.json
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Api\Debug\netcoreapp2.2\OGL.Api.runtimeconfig.json
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Api\Debug\netcoreapp2.2\OGL.Api.runtimeconfig.dev.json
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Api\Debug\netcoreapp2.2\OGL.Api.dll
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.csprojAssemblyReference.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.RazorAssemblyInfo.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.RazorAssemblyInfo.cs
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.AssemblyInfoInputs.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.AssemblyInfo.cs
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.csproj.CopyComplete
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Api\Debug\netcoreapp2.2\OGL.Api.dll
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Api\Debug\netcoreapp2.2\Properties\launchSettings.json

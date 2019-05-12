@@ -1,0 +1,15 @@
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\Ogl.Web\Debug\netcoreapp2.2\nlog.config
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\Ogl.Web\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.deps.json
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.runtimeconfig.json
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.runtimeconfig.dev.json
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.dll
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.RazorAssemblyInfo.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.RazorAssemblyInfo.cs
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.AssemblyInfoInputs.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.AssemblyInfo.cs
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.csproj.CopyComplete
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.dll
+C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\Ogl.Web\Debug\netcoreapp2.2\Ogl.Web.csprojAssemblyReference.cache
