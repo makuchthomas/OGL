@@ -1,8 +1,0 @@
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.deps.json
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.dll
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.AssemblyInfo.cs
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.csproj.CopyComplete
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.dll
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Infrastructure\Debug\netcoreapp2.2\OGL.Infrastructure.csprojAssemblyReference.cache

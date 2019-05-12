@@ -1,8 +1,0 @@
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Core\Debug\netcoreapp2.2\OGL.Core.deps.json
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\b\OGL.Core\Debug\netcoreapp2.2\OGL.Core.dll
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Core\Debug\netcoreapp2.2\OGL.Core.csproj.CoreCompileInputs.cache
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Core\Debug\netcoreapp2.2\OGL.Core.AssemblyInfoInputs.cache
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Core\Debug\netcoreapp2.2\OGL.Core.AssemblyInfo.cs
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Core\Debug\netcoreapp2.2\OGL.Core.csproj.CopyComplete
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Core\Debug\netcoreapp2.2\OGL.Core.dll
-C:\Users\Tomasz\Desktop\Programowanie\C#\OGL\.vs\OGL\lut\0\i\OGL.Core\Debug\netcoreapp2.2\OGL.Core.csprojAssemblyReference.cache
